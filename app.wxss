@@ -1,0 +1,20 @@
+@import './styles/base.wxss';
+
+page {
+    background-color: #f8f8f8;
+}
+
+.theme-page {
+    background-color: white;
+}
+
+/* 适配主题  DarkMode */
+@media (prefers-color-scheme: dark) {
+    page {
+        background-color: black;
+    }
+
+    .theme-page {
+        background-color: black;
+    }
+}

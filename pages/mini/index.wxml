@@ -1,0 +1,5 @@
+<view class="mini-page flex-column-center">
+    <image class="icon margin-bottom-lg" src="../../assets/icon.png" />
+    <view class="font-title-color font-size-40">小程序模板</view>
+    <view class="font-content-color font-size-28 margin-top">版本：{{ version }}</view>
+</view>

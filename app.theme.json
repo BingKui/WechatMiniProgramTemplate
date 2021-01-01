@@ -1,0 +1,65 @@
+{
+    "pages": [
+        "pages/box/index",
+        "pages/mini/index"
+    ],
+    "entryPagePath": "pages/box/index",
+    "window": {
+        "navigationStyle": "default",
+        "navigationBarTitleText": "微信小程序模板",
+        "navigationBarBackgroundColor": "@navBgColor",
+        "navigationBarTextStyle": "@navTxtStyle",
+        "backgroundColor": "@bgColor",
+        "backgroundTextStyle": "@bgTxtStyle",
+        "backgroundColorTop": "@bgColorTop",
+        "backgroundColorBottom": "@bgColorBottom",
+        "enablePullDownRefresh": true,
+        "onReachBottomDistance": 50,
+        "pageOrientation": "auto"
+    },
+    "tabBar": {
+        "color": "@tabFontColor",
+        "selectedColor": "@tabSelectedColor",
+        "backgroundColor": "@tabBgColor",
+        "borderStyle": "@tabBorderStyle",
+        "position": "bottom",
+        "custom": false,
+        "list": [{
+            "pagePath": "pages/box/index",
+            "text": "首页",
+            "iconPath": "@boxIcon",
+            "selectedIconPath": "@boxIconActive"
+        }, {
+            "pagePath": "pages/mini/index",
+            "text": "关于",
+            "iconPath": "@miniIcon",
+            "selectedIconPath": "@miniIconActive"
+        }]
+    },
+    "permission": {
+        "scope.userInfo": {
+            "desc": "你的用户信息将被用来注册用户"
+        },
+        "scope.userLocation": {
+            "desc": "你的位置信息将用于小程序位置接口的效果展示"
+        },
+        "scope.userLocationBackground": {
+            "desc": "后台更新位置信息，实时更新"
+        },
+        "scope.werun": {
+            "desc": "读取步数，参与活动"
+        },
+        "scope.record": {
+            "desc": "录制音频分享"
+        },
+        "scope.writePhotosAlbum": {
+            "desc": "保存图片到手机"
+        },
+        "scope.camera": {
+            "desc": "拍摄照片，扫描二维码"
+        }
+    },
+    "style": "v2",
+    "darkmode": true,
+    "themeLocation": "theme.json"
+}

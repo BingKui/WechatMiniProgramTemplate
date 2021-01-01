@@ -1,0 +1,9 @@
+/* pages/mini/index.wxss */
+.mini-page {
+    min-height: 100vh;
+}
+
+.mini-page .icon {
+    width: 100rpx;
+    height: 100rpx;
+}

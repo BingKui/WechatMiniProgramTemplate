@@ -1,0 +1,8 @@
+<!-- card -->
+<view class="v-card">
+    <view class="card-header">
+        <view class="card-title"></view>
+        <view class="card-more"></view>
+    </view>
+    <view class="card-content"></view>
+</view>

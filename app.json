@@ -1,0 +1,42 @@
+{
+    "pages": [
+        "pages/box/index",
+        "pages/mini/index"
+    ],
+    "entryPagePath": "pages/box/index",
+    "window": {
+        "navigationStyle": "default",
+        "navigationBarTitleText": "微信小程序模板",
+        "navigationBarBackgroundColor": "@navBgColor",
+        "navigationBarTextStyle": "@navTxtStyle",
+        "backgroundColor": "@bgColor",
+        "backgroundTextStyle": "@bgTxtStyle",
+        "backgroundColorTop": "@bgColorTop",
+        "backgroundColorBottom": "@bgColorBottom",
+        "enablePullDownRefresh": true,
+        "onReachBottomDistance": 50,
+        "pageOrientation": "auto"
+    },
+    "tabBar": {
+        "color": "@tabFontColor",
+        "selectedColor": "@tabSelectedColor",
+        "backgroundColor": "@tabBgColor",
+        "borderStyle": "@tabBorderStyle",
+        "position": "bottom",
+        "custom": false,
+        "list": [{
+            "pagePath": "pages/box/index",
+            "text": "首页",
+            "iconPath": "@boxIcon",
+            "selectedIconPath": "@boxIconActive"
+        }, {
+            "pagePath": "pages/mini/index",
+            "text": "关于",
+            "iconPath": "@miniIcon",
+            "selectedIconPath": "@miniIconActive"
+        }]
+    },
+    "style": "v2",
+    "darkmode": true,
+    "themeLocation": "theme.json"
+}

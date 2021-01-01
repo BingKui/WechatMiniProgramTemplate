@@ -1,0 +1,45 @@
+/* 颜色相关 */
+/* 颜色主题参考自 view-design */
+/* 文本颜色 */
+
+.text-primary {
+    color: #2d8cf0;
+}
+
+.text-info {
+    color: #2db7f5;
+}
+
+.text-success {
+    color: #19be6b;
+}
+
+.text-warn {
+    color: #ff9900;
+}
+
+.text-error {
+    color: #ed4014;
+}
+
+/* 颜色主题参考自 view-design */
+
+.font-title-color {
+    color: #17233d;
+}
+
+.font-content-color {
+    color: #515a6e;
+}
+
+.font-sub-color {
+    color: #808695;
+}
+
+.font-disabled-color {
+    color: #c5c8ce;
+}
+
+.font-tip-color {
+    color: #C0C4CC;
+}
