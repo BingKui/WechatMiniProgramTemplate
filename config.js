@@ -4,4 +4,4 @@
 export const IS_DEV = true;
 
 // 模板版本
-export const TEMPLATE_VERSION = 'v1.0.0';
+export const TEMPLATE_VERSION = 'v1.0.1';
