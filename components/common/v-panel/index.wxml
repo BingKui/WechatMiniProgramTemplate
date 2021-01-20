@@ -1,6 +1,0 @@
-<!-- pannel 面板 -->
-<view class="v-panel">
-    <view class="panel-header"></view>
-    <view class="panel-content"></view>
-    <view class="panel-footer"></view>
-</view>

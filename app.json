@@ -24,19 +24,26 @@
         "borderStyle": "@tabBorderStyle",
         "position": "bottom",
         "custom": false,
-        "list": [{
-            "pagePath": "pages/box/index",
-            "text": "首页",
-            "iconPath": "@boxIcon",
-            "selectedIconPath": "@boxIconActive"
-        }, {
-            "pagePath": "pages/mini/index",
-            "text": "关于",
-            "iconPath": "@miniIcon",
-            "selectedIconPath": "@miniIconActive"
-        }]
+        "list": [
+            {
+                "pagePath": "pages/box/index",
+                "text": "首页",
+                "iconPath": "@boxIcon",
+                "selectedIconPath": "@boxIconActive"
+            },
+            {
+                "pagePath": "pages/mini/index",
+                "text": "关于",
+                "iconPath": "@miniIcon",
+                "selectedIconPath": "@miniIconActive"
+            }
+        ]
+    },
+    "usingComponents": {
+        "v-icon": "components/common/v-icon/index"
     },
     "style": "v2",
     "darkmode": true,
-    "themeLocation": "theme.json"
+    "themeLocation": "theme.json",
+    "sitemapLocation": "sitemap39.json"
 }

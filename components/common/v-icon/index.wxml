@@ -1,2 +1,2 @@
-<!--components/base/v-icon/index.wxml-->
-<text>components/base/v-icon/index.wxml</text>
+<!-- v-icon -->
+<text class="v-icon icon-{{name}}" bindtap="clickAction" style="{{color ? 'color:' + color + ';' : ''}} font-size: {{size}}rpx;"></text>

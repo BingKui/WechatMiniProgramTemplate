@@ -5,4 +5,9 @@
         <view class="font-content-color font-size-28 text-indent-28 margin-top-md">本项目主要为小程序提供统一化管理的模板项目，可直接上手开发，通过配置管理小程序的内容。</view>
         <view class="font-content-color font-size-28 text-indent-28 margin-top-sm">项目中会提供一下基础的组件，也可自己添加组件，方便开发，快乐摸鱼！</view>
     </view>
+    <view class="font-title-color font-size-32 margin-top-lg">图标</view>
+    <v-icon name="add" />
+    <v-icon name="add" size="100" />
+    <v-icon name="add" size="100" color="#2d8cf0" />
+    <v-icon name="add" size="100" color="#2d8cf0" bind:click="iconClick" />
 </view>
